@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @SuppressLint("SetTextI18n")
-    public void OnClickBtnAddSocialCredit(View view){
+    public void OnClickBtnAddDETEY(View view){
         counter ++;
         TextView counterView = findViewById(R.id.txt_counter);
         counterView.setText(counter.toString());
